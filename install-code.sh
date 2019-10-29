@@ -1,6 +1,6 @@
 # Install this using the following command
 # 
-# curl -s https://raw.githubusercontent.com/johnkoerner/kali-scripts/master/install-code.sh | bash
+# . <(curl -s https://raw.githubusercontent.com/johnkoerner/kali-scripts/master/install-code.sh)
 #
 
 # Thanks to Rafe Hart for the majority of this script (https://www.rafaelhart.com/2017/08/install-visual-studio-code-on-kali-linux/)
@@ -28,3 +28,4 @@ GREEN='\e[32m'
 NC='\e[0m' # No Color
 
 echo -e "Visual Studio Code is now setup. Type ${GREEN}code${NC} in a terminal to load it up."
+code
