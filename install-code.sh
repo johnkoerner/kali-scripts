@@ -27,4 +27,4 @@ echo "alias code=\"code --user-data-dir=\\\"~/.vscode-root\\\"\"" >> ~/.bash_ali
 GREEN='\e[32m'
 NC='\e[0m' # No Color
 
-echo "Visual Studio Code is now setup. Type ${GREEN}code${NC} in a terminal to load it up."
+echo -e "Visual Studio Code is now setup. Type ${GREEN}code${NC} in a terminal to load it up."
