@@ -24,6 +24,6 @@ echo "alias code=\"code --user-data-dir=\\\"~/.vscode-root\\\"\"" >> ~/.bash_ali
 # Reload the bash aliases so we can run it in this session
 . ~/.bash_aliases
 
-echo "Visual Studio Code is now setup. Type \033[0;32mcode\033[0m in a terminal to load it up."
+echo 'Visual Studio Code is now setup. Type \033[0;32mcode\033[0m in a terminal to load it up.'
 
 code
