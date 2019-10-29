@@ -1,3 +1,8 @@
+# Install this using the following command
+# 
+# curl -s https://raw.githubusercontent.com/johnkoerner/kali-scripts/master/install-code.sh | bash
+#
+
 # Thanks to Rafe Hart for the majority of this script (https://www.rafaelhart.com/2017/08/install-visual-studio-code-on-kali-linux/)
 # Download the Microsoft GPG key, and convert it from OpenPGP ASCII 
 # armor format to GnuPG format
