@@ -28,5 +28,3 @@ GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 echo 'Visual Studio Code is now setup. Type ${GREEN}code${NC} in a terminal to load it up.'
-
-code
