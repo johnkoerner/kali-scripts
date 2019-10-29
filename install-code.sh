@@ -17,5 +17,13 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" 
 # Update and install Visual Studio Code 
 apt update && apt install code
 
+# create an alias for code, so it will run as root.
 touch ~/.bash_aliases
 echo "alias code=\"code --user-data-dir=\\\"~/.vscode-root\\\"\"" >> ~/.bash_aliases
+
+# Reload the bash aliases so we can run it in this session
+. ~/.bash_aliases
+
+echo "Visual Studio Code is now setup. Type \033[0;32mcode\033[0m in a terminal to load it up."
+
+code
